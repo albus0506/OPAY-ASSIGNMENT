@@ -1,0 +1,73 @@
+nav{
+    display: flex;
+    background-color: white;
+
+}
+.navlogo{
+    border: 2px solid red;
+    /* width: 20px; */
+    height: 50px;
+}
+.navlink ul{
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+
+}
+.section1{
+    background-image: url(../svg/opaybackground.jpg);
+    background-size: 1700px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0 0;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
+}
+.section1-text{
+    width: 49%;
+    
+}
+.section1-text h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: white;
+}
+.section1-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: rgb(33, 15, 96);
+}
+h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    padding: 10px;
+    color: rgb(33, 15, 96);
+}
+.section3{
+    background-color: #1dc99b;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 80px;
+    align-items: center;
+}
+.section3-child{
+    width: 35%;
+}
+.section3-child h1{
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 52px;
+    color: white;
+}
+.section3-child p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
